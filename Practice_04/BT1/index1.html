@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quản lí điểm sinh viên</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+    <div class="form">
+        <input type="text" id="name" placeholder="Họ Tên">
+        <input type="number" id="score" placeholder="Điểm(0-10)">
+        <button id="addBtn">Thêm</button>
+    </div>
+<table>
+    <thead>
+        <tr>
+            <th>STT</th>
+            <th>Họ tên</th>
+            <th>Điểm</th>
+            <th>Xếp hạng</th>
+            <th>Thao tác</th>
+        </tr>
+    </thead>
+    <tbody id="tableBody"></tbody>
+</table>
+
+<div id="stats">
+Tổng SV: 0 | Điểm TB: 0
+</div>
+
+<script src="script1.js"></script>
+
+    
+</body>
+</html>

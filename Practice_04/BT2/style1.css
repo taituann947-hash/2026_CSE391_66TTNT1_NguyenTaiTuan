@@ -1,0 +1,29 @@
+body{
+font-family: Arial;
+margin:40px;
+}
+
+.field{
+margin-bottom:15px;
+}
+
+input{
+padding:6px;
+width:250px;
+}
+
+button{
+padding:8px 16px;
+}
+
+.error{
+color:red;
+font-size:13px;
+display:block;
+}
+
+#successMessage{
+font-size:20px;
+color:green;
+margin-top:20px;
+}
